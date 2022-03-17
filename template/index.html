@@ -1,13 +1,47 @@
 <html>
     <head>
         <title>
-            Joke APP
+            اللهم عجل فرج الحجة
         </title>
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+        <style>
+            body {
+               background-image: url("../images/3.jpg");
+               background-repeat: no-repeat;
+               background-size: cover;
+               margin: 0px;
+            }
+            h4{
+                font-family: 'Cairo', sans-serif;
+                font-size: 5vh;
+                margin: 0px;
+            }
+            h1{
+                font-family: 'Cairo', sans-serif;
+                margin: 0px;
+                font-size: 15vh;
+            }
+            img{
+                margin-left: 40%;
+                margin-right: 40%;
+                width: 20%;
+                position: fixed;
+                bottom: 5%;
+            }
+            div.dummy-space{
+                height: 20vw;
+            }
+         </style>
     </head>
     <body>
-        <h1 align="center">اللهم عجل لوليك الفرج</h1>
-        
-        <p align = "center">{{jokes}}</p>
+        <div class = "parent">
+            <div class = "dummy-space"></div>
+            <h4 align="center">١٥ شعبان - ذكرى ولادة القائم الحجة</h4>
+            <h1 align = "center">{{jokes}}</h1>
+
+            <img class = "logo" src = "../images/logo.png">
+        </div>
     </body>
 </html>
